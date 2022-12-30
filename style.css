@@ -1,1 +1,66 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(198, 188, 200);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  background: none;
+}
+
+nav img {
+  height: 15em;
+  width: 12em;
+}
+
+.triangle {
+  height: 0;
+  width: 50%;
+  border-top: 15em solid #f7f8f6;
+  border-right: 15em solid rgba(239, 241, 141, 0);
+  border-bottom: 1em solid rgba(145, 236, 252, 0);
+  border-left: 15em solid rgba(248, 115, 106, 0);
+}
+
+
+
+
+.aboutEllie {
+  height: 50em;
+  width: 40em;
+  background-color: rgb(226, 216, 235);
+  display: flex;
+  flex-direction: column;
+  padding-top: 5em;
+}
+
+.aboutEllie img {
+  height: 38em;
+  width: 34em;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+}
+
+.boutons {
+  color: white;
+  width: 7em;
+  height: 2em;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(198, 169, 216);
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 10px 10px 8px 10px rgba(224, 215, 228, 0.5);
+  font-size: 1em;
+  line-height: 2em;
+}
